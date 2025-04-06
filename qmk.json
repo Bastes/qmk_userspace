@@ -3,18 +3,18 @@
     "build_targets": [
         [
             "splitkb/halcyon/kyria/rev4",
-            "Bastes",
+            "bastes",
             {
                 "HLC_TFT_DISPLAY": "1",
-                "TARGET": "kyria_rev4_Bastes_left"
+                "TARGET": "kyria_rev4_bastes_left"
             }
         ],
         [
             "splitkb/halcyon/kyria/rev4",
-            "Bastes",
+            "bastes",
             {
                 "HLC_CIRQUE_TRACKPAD": "1",
-                "TARGET": "kyria_rev4_Bastes_right"
+                "TARGET": "kyria_rev4_bastes_right"
             }
         ],
     ]
