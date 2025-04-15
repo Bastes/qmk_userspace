@@ -352,16 +352,16 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) {
         // Volume control
         if (clockwise) {
-            tap_code16(KC_BRIGHTNESS_UP);
-        } else {
             tap_code16(KC_BRIGHTNESS_DOWN);
+        } else {
+            tap_code16(KC_BRIGHTNESS_UP);
         }
     } else if (index == 2) {
         // Page up/Page down
         if (clockwise) {
-            tap_code(KC_VOLU);
-        } else {
             tap_code(KC_VOLD);
+        } else {
+            tap_code(KC_VOLU);
         }
     }
     return false;
