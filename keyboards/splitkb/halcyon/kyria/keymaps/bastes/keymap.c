@@ -367,3 +367,67 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     return false;
 }
 #endif
+
+// WoW combos
+const uint16_t PROGMEM wow_shift_q[] = {KC_Q, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_w[] = {KC_W, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_e[] = {KC_E, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_r[] = {KC_R, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_t[] = {KC_T, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_a[] = {A_LSH, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_s[] = {S_CTL, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_d[] = {D_ALT, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_f[] = {F_SYMS, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_g[] = {G_FR, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_z[] = {KC_Z, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_x[] = {KC_X, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_c[] = {KC_C, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_v[] = {KC_V, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_shift_b[] = {KC_B, KC_SPC, COMBO_END};
+const uint16_t PROGMEM wow_control_q[] = {KC_Q, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_w[] = {KC_W, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_e[] = {KC_E, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_r[] = {KC_R, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_t[] = {KC_T, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_a[] = {A_LSH, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_s[] = {S_CTL, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_d[] = {D_ALT, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_f[] = {F_SYMS, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_g[] = {G_FR, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_z[] = {KC_Z, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_x[] = {KC_X, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_c[] = {KC_C, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_v[] = {KC_V, KC_DEL, COMBO_END};
+const uint16_t PROGMEM wow_control_b[] = {KC_B, KC_DEL, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(wow_shift_q, LSFT(KC_Q)),
+    COMBO(wow_shift_w, LSFT(KC_W)),
+    COMBO(wow_shift_e, LSFT(KC_E)),
+    COMBO(wow_shift_r, LSFT(KC_R)),
+    COMBO(wow_shift_t, LSFT(KC_T)),
+    COMBO(wow_shift_a, LSFT(KC_A)),
+    COMBO(wow_shift_s, LSFT(KC_S)),
+    COMBO(wow_shift_d, LSFT(KC_D)),
+    COMBO(wow_shift_f, LSFT(KC_F)),
+    COMBO(wow_shift_g, LSFT(KC_G)),
+    COMBO(wow_shift_z, LSFT(KC_Z)),
+    COMBO(wow_shift_x, LSFT(KC_X)),
+    COMBO(wow_shift_c, LSFT(KC_C)),
+    COMBO(wow_shift_v, LSFT(KC_V)),
+    COMBO(wow_shift_b, LSFT(KC_B)),
+    COMBO(wow_control_q, LCTL(KC_Q)),
+    COMBO(wow_control_w, LCTL(KC_W)),
+    COMBO(wow_control_e, LCTL(KC_E)),
+    COMBO(wow_control_r, LCTL(KC_R)),
+    COMBO(wow_control_t, LCTL(KC_T)),
+    COMBO(wow_control_a, LCTL(KC_A)),
+    COMBO(wow_control_s, LCTL(KC_S)),
+    COMBO(wow_control_d, LCTL(KC_D)),
+    COMBO(wow_control_f, LCTL(KC_F)),
+    COMBO(wow_control_g, LCTL(KC_G)),
+    COMBO(wow_control_z, LCTL(KC_Z)),
+    COMBO(wow_control_x, LCTL(KC_X)),
+    COMBO(wow_control_c, LCTL(KC_C)),
+    COMBO(wow_control_v, LCTL(KC_V)),
+    COMBO(wow_control_b, LCTL(KC_B)),
+};
