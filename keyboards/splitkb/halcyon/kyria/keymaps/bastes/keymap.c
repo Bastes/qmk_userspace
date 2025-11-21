@@ -220,10 +220,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------'                                              `-----------------------------------'
  */
      [_MEDIA] = LAYOUT_split_3x6_5_hlc(
-       _______, _______, KC_WH_L, KC_MS_U, KC_WH_R, KC_WH_U,                                       KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,
-       _______, _______, KC_MS_L, KC_MS_D, KC_MS_R, KC_WH_D,                                       KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,  KC_F12,
+       _______, _______, MS_WHLL,   MS_UP, MS_WHLR, MS_WHLU,                                       KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,
+       _______, _______, MS_LEFT, MS_DOWN, MS_RGHT, MS_WHLD,                                       KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,  KC_F12,
        _______, KC_LCTL, KC_LALT, _______, _______, _______, KC_WBAK, KC_WFWD, _______, _______, _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______,
-                                  _______, _______, KC_BTN3, KC_BTN1, KC_BTN2, _______, _______, _______, _______, _______,
+                                  _______, _______, MS_BTN3, MS_BTN1, MS_BTN2, _______, _______, _______, _______, _______,
        KC_MUTE, _______, _______, _______, _______,                                                       KC_MUTE, _______, _______, _______, _______
      ),
 /*
@@ -266,9 +266,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------'                                              `-----------------------------------'
  */
      [_ARROWS] = LAYOUT_split_3x6_5_hlc(
-       _______, _______, KC_HOME,   KC_UP,  KC_END, KC_PGUP,                                     RGB_MOD, RGB_HUI, RGB_SAI, RGB_VAI, _______, _______,
-       _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN,                                    RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD, _______, _______,
-       _______, _______,   SPTAB, _______,   SNTAB, _______, _______, _______, _______, _______, RGB_TOG, _______, _______, _______, _______, _______,
+       _______, _______, KC_HOME,   KC_UP,  KC_END, KC_PGUP,                                     UG_NEXT, UG_HUEU, UG_SATU, UG_VALU, _______, _______,
+       _______, _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_PGDN,                                     UG_PREV, UG_HUED, UG_SATD, UG_VALD, _______, _______,
+       _______, _______,   SPTAB, _______,   SNTAB, _______, _______, _______, _______, _______, UG_TOGG, _______, _______, _______, _______, _______,
                                   _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
        _______, _______, _______, _______, _______,                                                       _______, _______, _______, _______, _______
      ),
