@@ -167,7 +167,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------+-------------.  ,-------------+------+------+------+------+------+--------|
  * |    ]   |  Z   |  X   |  C   |  V   |  B   |  Esc |  Del |  | *Sym | CLck |   N  |   M  | ,  < | . >  | /  ? |    :   |
  * `----------------------+------+------+------+------+------|  |------+------+------+------+------+----------------------'
- *                        |      | *L5  |  OS  | Space|BckSpc|  |  *L4 | Enter|  OS  | *L2  | Mute |
+ *                        | Expo | *L5  |  OS  | Space|BckSpc|  |  *L4 | Enter|  OS  | *L2  | Mute |
  *                        `----------------------------------'  `----------------------------------'
  * ,-----------------------------------.                                              ,-----------------------------------.
  * | MUTE | ____ | _____ | ____ | ____ |                                              | MUTE | ____ | _____ | ____ | ____ |
@@ -177,7 +177,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                                        KC_Y,    KC_U,    KC_I,    KC_O,    KC_P, KC_BSLS,
       KC_LBRC,   A_LSH,   S_CTL,   D_ALT,  F_SYMS,    G_FR,                                        H_FR,  J_SYMS,   K_ALT,   L_CTL,  SC_RSH, KC_QUOT,
       KC_RBRC,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,  KC_ESC,  KC_DEL, NUMBERS, KC_CAPS,    KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_COLN,
-                                 _______,     FPS, KC_LGUI,  KC_SPC, KC_BSPC,  ARROWS,  KC_ENT, KC_LGUI,   MEDIA, KC_MUTE,
+                                 KC_C_UP,     FPS, KC_LGUI,  KC_SPC, KC_BSPC,  ARROWS,  KC_ENT, KC_LGUI,   MEDIA, KC_MUTE,
       KC_MUTE, _______, _______, _______, _______,                                                       KC_MUTE, _______, _______, _______, _______
     ),
 /*
